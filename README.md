@@ -7,3 +7,5 @@
 
  ![Stage1](./pictures/Stage1.png)
 ### 2.
+
+ ![Stage2](./pictures/Stage2.png)
