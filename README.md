@@ -4,3 +4,4 @@
 
 ## Основная часть
 
+1. ![Stage1](./pictures/Stage1.png)
