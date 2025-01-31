@@ -52,5 +52,11 @@ ansible-playbook -i inventory/prod.yml site.yml --ask-vault-pass
 ```
 
 ![Stage8](./pictures/Stage8.png)
+### 9.
 
+``` bash
+ansible-doc --type connection --list
+```
 
+![Stage9](./pictures/Stage9.png)
+Для работы на control node подходит local
