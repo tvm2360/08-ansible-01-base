@@ -79,3 +79,11 @@ prod.yml:
       localhost:
         ansible_connection: local
 ```
+
+### 11.
+
+``` bash
+ansible-playbook -i inventory/prod.yml site.yml --ask-vault-pass
+```
+
+![Stage11](./pictures/Stage11.png)
