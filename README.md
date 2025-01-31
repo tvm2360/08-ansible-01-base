@@ -32,10 +32,14 @@ docker ps
 ```
 
 ![Stage3_docker_ps](./pictures/Stage3_docker_ps.png)
+### 4.
+
 ``` bash
 ansible-playbook -i inventory/prod.yml site.yml
 ```
 
 ![Stage3_ansible_playbook](./pictures/Stage3_Ansible_playbook.png)
-### 4.
+### 5,6.
+
+![Stage5_6](./pictures/Stage5_6.png)
 
