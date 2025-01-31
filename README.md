@@ -118,10 +118,17 @@ ansible-playbook -i inventory/prod.yml site.yml --ask-vault-pass
 docker pull pycontribs/fedora
 ```
 
+Запускаем контейнер:
+
+``` bash
+docker run -d --rm --name fedora -it pycontribs/fedora:latest /bin/bash
+```
+
+Смотрим переменные:
+
 ``` bash
 ansible-playbook -i inventory/prod.yml site.yml --ask-vault-pass
 ```
-
 ![StageAdd4](./pictures/StageAdd4.png)
 
 
