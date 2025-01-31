@@ -90,4 +90,4 @@ ansible-playbook -i inventory/prod.yml site.yml --ask-vault-pass
 
 ### *1.
 
-![Stage1Add1](./pictures/Stage1Add1.png)
+![StageAdd1](./pictures/StageAdd1.png)
