@@ -42,4 +42,8 @@ ansible-playbook -i inventory/prod.yml site.yml
 ### 5,6.
 
 ![Stage5_6](./pictures/Stage5_6.png)
+### 7.
+
+![Stage7](./pictures/Stage7.png)
+
 
