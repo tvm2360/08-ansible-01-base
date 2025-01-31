@@ -102,3 +102,11 @@ ansible-vault encrypt_string
 
 ![StageAdd2](./pictures/StageAdd2.png)
 
+### 3.
+
+``` bash
+ansible-playbook -i inventory/prod.yml site.yml --ask-vault-pass
+```
+
+![StageAdd3](./pictures/StageAdd3.png)
+
