@@ -60,3 +60,22 @@ ansible-doc --type connection --list
 
 ![Stage9](./pictures/Stage9.png)
 Для работы на control node подходит local
+
+### 10.
+
+prod.yml:
+``` yml
+---
+  el:
+    hosts:
+      centos7:
+        ansible_connection: docker
+  deb:
+    hosts:
+      ubuntu:
+        ansible_connection: docker
+  local:
+    hosts:
+      localhost:
+        ansible_connection: local
+```
