@@ -37,7 +37,6 @@ docker ps
 ``` bash
 ansible-playbook -i inventory/prod.yml site.yml
 ```
-
 ![Stage3_ansible_playbook](./pictures/Stage3_Ansible_playbook.png)
 ### 5,6.
 
@@ -50,17 +49,14 @@ ansible-playbook -i inventory/prod.yml site.yml
 ``` bash
 ansible-playbook -i inventory/prod.yml site.yml --ask-vault-pass
 ```
-
 ![Stage8](./pictures/Stage8.png)
 ### 9.
 
 ``` bash
 ansible-doc --type connection --list
 ```
-
 ![Stage9](./pictures/Stage9.png)
 Для работы на control node подходит local
-
 ### 10.
 
 prod.yml:
@@ -85,31 +81,24 @@ prod.yml:
 ``` bash
 ansible-playbook -i inventory/prod.yml site.yml --ask-vault-pass
 ```
-
 ![Stage11](./pictures/Stage11.png)
 
 ## Необязательная часть
-
 ### 1.
 
 ![StageAdd1](./pictures/StageAdd1.png)
-
 ### 2.
 
 ``` bash
 ansible-vault encrypt_string
 ```
-
 ![StageAdd2](./pictures/StageAdd2.png)
-
 ### 3.
 
 ``` bash
 ansible-playbook -i inventory/prod.yml site.yml --ask-vault-pass
 ```
-
 ![StageAdd3](./pictures/StageAdd3.png)
-
 ### 4.
 
 Подготавливаем образ контейнера:
