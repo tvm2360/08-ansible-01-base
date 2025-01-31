@@ -110,3 +110,18 @@ ansible-playbook -i inventory/prod.yml site.yml --ask-vault-pass
 
 ![StageAdd3](./pictures/StageAdd3.png)
 
+### 4.
+
+Подготавливаем образ контейнера:
+
+``` bash
+docker pull pycontribs/fedora
+```
+
+``` bash
+ansible-playbook -i inventory/prod.yml site.yml --ask-vault-pass
+```
+
+![StageAdd4](./pictures/StageAdd4.png)
+
+
